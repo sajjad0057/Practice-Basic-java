@@ -9,6 +9,8 @@ public class Test {
         Teacher teacher2 = new Teacher("xyz","male",8784458); // here declare and create teacher1 object from Teacher Class.
         teacher2.displayInfo();
 
+        Teacher teacher3 = new Teacher(); // here declare and create teacher1 object from Teacher Class.
+//        teacher3.displayInfo();
 
 
     }
