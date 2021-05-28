@@ -2,15 +2,14 @@ package StaticKeyword;
 
 public class Test {
     public static void main(String[] args) {
-        // access non-static variable , need a class object
         Student student1 = new Student();
-        System.out.println("University Name : "+student1.Uni_name);
+        Student student2 = new Student();
+        Student student3 = new Student();
+        Student student4 = new Student();
+        Student student5 = new Student();
+        Student student6 = new Student();
 
-        // access static variable no need to create class object .
-        // by using class name access this variable .
-        //Ex.
-
-        System.out.println("Another University name : "+Student.another_uni_name);
+        System.out.println("Total Student Object : "+Student.count);
 
     }
 }

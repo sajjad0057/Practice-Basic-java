@@ -2,8 +2,16 @@ package StaticKeyword;
 
 public class Student {
 
-    String Uni_name = "PUST";   // non static variable.
-    static String another_uni_name = "RU"; // static variable .
+
+   static int count = 0; // non static variable
+
+   Student(){
+       count ++;
+   }
+
+//   void totalObject(){
+//       System.out.println("Total Student Object : "+count);
+//   }
 
 
 }
