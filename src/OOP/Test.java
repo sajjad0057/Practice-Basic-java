@@ -11,13 +11,16 @@ public class Test {
         teacher1.gender = "Male";
         teacher1.phone = 89954;
 
+        teacher1.displayInfo();
+
         Teacher teacher2 = new Teacher(); // here declare and create teacher1 object from Teacher Class.
         teacher2.name = "Nafiul Fatta";
         teacher2.gender = "Male";
         teacher2.phone = 8995654;
 
-        System.out.println("Teacher Name : "+teacher1.name);
-        System.out.println("Teacher Name : "+teacher2.name);
+        teacher2.displayInfo();
+
+
 
     }
 }
