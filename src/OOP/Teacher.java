@@ -11,5 +11,11 @@ public class Teacher {
 
     }
 
+    void  setInfo(String n, String g, int p){
+            name = n;
+            gender = g;
+            phone = p;
+    };
+
 
 }

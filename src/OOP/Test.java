@@ -7,16 +7,12 @@ public class Test {
         // declare and create object at a time :
 
         Teacher teacher1 = new Teacher(); // here declare and create teacher1 object from Teacher Class.
-        teacher1.name = "sajjad hossain";
-        teacher1.gender = "Male";
-        teacher1.phone = 89954;
 
+        teacher1.setInfo("sajjad Hossain","male",87458);
         teacher1.displayInfo();
 
         Teacher teacher2 = new Teacher(); // here declare and create teacher1 object from Teacher Class.
-        teacher2.name = "Nafiul Fatta";
-        teacher2.gender = "Male";
-        teacher2.phone = 8995654;
+        teacher2.setInfo("xyz","male",8784458);
 
         teacher2.displayInfo();
 
