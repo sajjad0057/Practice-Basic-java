@@ -2,9 +2,8 @@ package StaticKeyword;
 
 public class Test {
     public static void main(String[] args) {
-        Student student1 = new Student("sajjad","ICE");
-        Student student2 = new Student("mehedi","physics");
-        student1.displayInfo();
-        student2.displayInfo();
+        Student student1 = new Student();
+        System.out.println("University Name : "+student1.Uni_name);
+
     }
 }
