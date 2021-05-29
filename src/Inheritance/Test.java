@@ -7,5 +7,14 @@ public class Test {
         teacher.setAge(45);
         teacher.setQualification("Math Teacher");
         teacher.displayInfo();
+
+
+
+        // practice super keyword .
+        System.out.println("----------------------------------\n" +
+                "practice super keyword \n" +
+                "-----------------------------------");
+        B obj = new B();
+        obj.display();
     }
 }
