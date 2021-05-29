@@ -13,7 +13,7 @@ public class Teacher extends Person {
     void displayInfo(){
 //        System.out.println("Name : "+name);
 //        System.out.println("Age : "+age);
-        display();   // method overridding .
+        display();
         System.out.println("Qualification : "+Qualification);
     }
 
