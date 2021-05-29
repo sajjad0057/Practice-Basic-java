@@ -2,10 +2,10 @@ package final_keyword;
 
 public class University {
     final String name = "PUST";  // using final key ,variable cannot changed or updated.
-    final int established; // blank final veriable .
+    static final int established; // static blank final veriable .
 
-    University(){
-        established = 2008; // Only using constructor , can be updated blank final veriable .
+    static {
+        established = 2008; // Only using static block , can be updated static blank final veriable .
     }
 
     void display(){
