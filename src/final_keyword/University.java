@@ -8,7 +8,7 @@ public class University {
         established = 2008; // Only using static block , can be updated static blank final veriable .
     }
 
-    void display(){
+    final void display(){
         System.out.println("University Name : "+name);
         System.out.println("Established : "+established);
     }
