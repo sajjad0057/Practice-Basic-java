@@ -31,10 +31,15 @@ What is abstraction ?
 * */
 
 public abstract class MobileUser {
+    int mobileNo; String message;
+    MobileUser(int m_no,String mess){
+        mobileNo = m_no;
+        message = mess;
+    }
     abstract void sendMessage(); // abstract method .
 
     void call(){
-        System.out.println("call method"); // Non abstract method .
+        System.out.println("calling : "+mobileNo); // Non abstract method .
     }
 
 }
