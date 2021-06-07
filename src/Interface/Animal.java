@@ -21,7 +21,17 @@ abstract keyword is not needed.
 - A class can inherit from just one superclass , but A class  can implement multiple interface !
 _ object can't create using interface
 
-]*/
+]
+[
+# Difference Between interface and class :
+-> Can't instantiate an interface .
+-> Interface doesn't contain constructor .
+-> All the methods in interface are abstract .
+-> An Interface can not have instance variables .
+-> An Interface can extend multiple interface .
+]
+
+*/
 
 public interface Animal {
     public abstract void eat();
